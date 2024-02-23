@@ -7,9 +7,10 @@ fun main() {
 fun printName(name:String){
     println("Hello $name")
 }
-fun modulus(a: Int, b:Int){
-    var result= a%b
-    println("the result= $result")
+fun modulus(a: Int, b:Int):Int{
+    var remainder = a % b
+    println(remainder)
+    return(remainder)
 }
 fun sum(a:Int, b:Int, c:Int, d:Int){
     var result= a+b+c+d
